@@ -68,6 +68,6 @@ never 類型表示永遠不會出現的值，常用於：
 - 不可能到達的程式碼分支
 - 超級不會用到
 */
-const impossible: never = (() => { throw new Error('這永遠不會執行') })();
+const neverDemo: never = (() => { throw new Error('這永遠不會執行') })();
 
 
