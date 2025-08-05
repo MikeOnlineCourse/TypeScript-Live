@@ -61,13 +61,3 @@ if (typeof text === "number") {
   console.log(text.toFixed(2));
 }
 
-
-/*
-never 類型表示永遠不會出現的值，常用於：
-- 永遠不會返回的函數
-- 不可能到達的程式碼分支
-- 超級不會用到
-*/
-const neverDemo: never = (() => { throw new Error('這永遠不會執行') })();
-
-
