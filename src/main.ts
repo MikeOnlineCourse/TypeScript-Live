@@ -1,3 +1,1 @@
-import "./ts/12-1-Asynchronous";
-
-
+import "./ts/25-OtherLib.ts";

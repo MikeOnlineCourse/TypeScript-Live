@@ -20,8 +20,19 @@
     "noUncheckedSideEffectImports": true,
     "noUnusedParameters": true,
 
+    // 識別js檔案
+    "allowJs": true,
+    // 不進行js檔案的型別檢查
+    "checkJs": false,
+
+
     // 已宣告但從未讀取其值 - 變數 (關閉)
-    "noUnusedLocals": false
+    "noUnusedLocals": false,                                      
   },
-  "include": ["src"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
+
+
