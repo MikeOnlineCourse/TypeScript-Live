@@ -6,9 +6,9 @@
   const elRef = useTemplateRef<HTMLInputElement>('inputRef');
 
   onMounted(() => {
-    el.value.focus();
+    el.value?.focus();
 
-    elRef.value.focus();
+    elRef.value?.focus();
   });
 </script>
 <template>
