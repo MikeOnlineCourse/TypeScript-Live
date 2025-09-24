@@ -1,9 +1,9 @@
 <script setup lang="ts">
   import { ref, useTemplateRef, onMounted } from 'vue';
 
-  const el = ref<HTMLInputElement | null>(null);
+  const el = ref(null);
 
-  const elRef = useTemplateRef<HTMLInputElement>('inputRef');
+  const elRef = useTemplateRef('inputRef');
 
   onMounted(() => {
     el.value?.focus();

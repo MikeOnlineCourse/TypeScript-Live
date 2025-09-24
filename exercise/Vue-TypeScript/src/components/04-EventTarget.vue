@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  const handleChange = (e: Event) => {
-    const inpVal = (e.target as HTMLInputElement).value;
+  const handleChange = (e) => {
+    const inpVal = e.target.value;
     console.log(inpVal);
   };
 </script>

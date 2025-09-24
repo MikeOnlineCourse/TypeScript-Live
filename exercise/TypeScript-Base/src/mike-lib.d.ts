@@ -1,0 +1,1 @@
+// declare module 可以讓 typescript 知道這個模組的存在

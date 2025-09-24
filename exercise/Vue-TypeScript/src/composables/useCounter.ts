@@ -1,14 +1,8 @@
 import { ref, computed } from 'vue';
-import type { Ref, ComputedRef } from 'vue';
 
-type TCounterReturn = {
-  count: Ref<number>;
-  twoCount: ComputedRef<number>;
-  add: () => void;
-  remove: () => void;
-};
 
-export function useCounter(num: number = 0): TCounterReturn {
+export function useCounter(num) {
+  
   const count = ref(num);
 
   const twoCount = computed(() => count.value * 2);

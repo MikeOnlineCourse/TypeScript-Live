@@ -1,8 +1,5 @@
 <script setup lang="ts">
-  const emit = defineEmits<{
-    activeIdx: [id: number];
-    updateName: [name: string];
-  }>();
+  const emit = defineEmits(['activeIdx', 'updateName']);
 
   const handleActiveIdx = (id: number) => {
     emit('activeIdx', id);
