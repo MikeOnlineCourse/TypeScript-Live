@@ -44,11 +44,23 @@ const mixed2DArr2 = [
 ];
 
 // 物件型別
+
+// 物件有 id 跟 name 兩個屬性
 const obj1 = { id: 1, name: "mike" };
+
+// 如果今天 name 可能會沒有值
 const obj2 = { id: 1 };
+
+// name 可能是 undefined
 const obj3 = { id: 1, name: undefined };
+
+// name 可能是 null
 const obj4 = { id: 1, name: null };
+
+// name 可能沒有值，有的話是 string 或是 null
 const obj5 = { id: 1 };
+
+// name 有可能是 string、null、undefined
 const obj9 = { id: 1, name: "mike" };
 const obj6 = { id: 1, name: undefined };
 const obj7 = { id: 1, name: null };
