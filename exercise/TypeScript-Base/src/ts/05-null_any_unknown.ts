@@ -13,7 +13,7 @@ const user1: {
 } = {
   id: 1,
   name: "Alice",
-  avatar: "https://example.com/avatar.jpg"
+  avatar: "https://example.com/avatar.jpg",
 };
 
 const user2: {
@@ -22,11 +22,9 @@ const user2: {
   avatar: string; // 可能沒有頭像
 } = {
   id: 2,
-  name: "Bob", 
-  avatar: null // 沒有設定頭像
+  name: "Bob",
+  avatar: null, // 沒有設定頭像
 };
-
-
 
 /*
 any 類型特點：
@@ -40,8 +38,6 @@ let count = 3;
 count = "3";
 count.toFixed(); // 運行時錯誤！字串沒有 toFixed 方法
 
-
-
 /*
 unknown 類型特點：
 - 可以被賦予任何值
@@ -51,10 +47,8 @@ unknown 類型特點：
 */
 let text = "hello";
 text = 123;
-text = { name: "test" };
 
-// 必須進行類型檢查 typeof 才能使用 
+// 必須進行類型檢查 typeof 才能使用
 console.log(text.toUpperCase());
 
 console.log(text.toFixed(2));
-
