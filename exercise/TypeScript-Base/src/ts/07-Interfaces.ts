@@ -1,10 +1,10 @@
 /**
-* 基本用法
-*/
+ * 基本用法
+ */
 
-const mike:IPerson = { firstName: "Cheng", lastName: "Mike" };
+const mike = { firstName: "Cheng", lastName: "Mike" };
 
-const jobInfo: IJobInfo = {
+const jobInfo = {
   job: "Frontend Engineer",
   baseInfo: {
     name: "Mike",
@@ -14,8 +14,8 @@ const jobInfo: IJobInfo = {
 };
 
 /**
-* 結合類型
-*/
+ * 結合類型
+ */
 
 const taipei = {
   name: "新北市",
@@ -31,11 +31,9 @@ const taipei = {
   ],
 };
 
-
-
 /**
-* 繼承類型
-*/
+ * 繼承類型
+ */
 interface IWidth {
   width: string;
 }
