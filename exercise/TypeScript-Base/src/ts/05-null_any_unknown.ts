@@ -12,8 +12,8 @@ const user1: {
   avatar: string;
 } = {
   id: 1,
-  name: "Alice",
-  avatar: "https://example.com/avatar.jpg",
+  name: 'Alice',
+  avatar: 'https://example.com/avatar.jpg',
 };
 
 const user2: {
@@ -22,7 +22,7 @@ const user2: {
   avatar: string; // 可能沒有頭像
 } = {
   id: 2,
-  name: "Bob",
+  name: 'Bob',
   avatar: null, // 沒有設定頭像
 };
 
@@ -35,7 +35,7 @@ any 類型特點：
 */
 // any 的問題：失去類型安全
 let count = 3;
-count = "3";
+count = '3';
 count.toFixed(); // 運行時錯誤！字串沒有 toFixed 方法
 
 /*
@@ -45,7 +45,7 @@ unknown 類型特點：
 - 不會污染其他變數
 - 是 any 的安全替代方案
 */
-let text = "hello";
+let text = 'hello';
 text = 123;
 
 // 必須進行類型檢查 typeof 才能使用

@@ -2,7 +2,7 @@ function resArg(arg) {
   return arg;
 }
 
-const res1 = resArg("Mike");
+const res1 = resArg('Mike');
 const res2 = resArg(100);
 
 console.log(res1); // -> "Mike"
@@ -18,6 +18,6 @@ const numbers = [1, 2, 3, 4];
 const firstNumber = getFirstItem(numbers);
 console.log(firstNumber); // => 1
 
-const strings = ["a", "b", "c", "d"];
+const strings = ['a', 'b', 'c', 'd'];
 const firstString = getFirstItem(strings);
 console.log(firstString); // => "a"

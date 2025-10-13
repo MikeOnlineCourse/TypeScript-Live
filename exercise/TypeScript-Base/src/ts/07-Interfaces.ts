@@ -2,14 +2,14 @@
  * 基本用法
  */
 
-const mike = { firstName: "Cheng", lastName: "Mike" };
+const mike = { firstName: 'Cheng', lastName: 'Mike' };
 
 const jobInfo = {
-  job: "Frontend Engineer",
+  job: 'Frontend Engineer',
   baseInfo: {
-    name: "Mike",
+    name: 'Mike',
     age: 18,
-    address: "Taipei",
+    address: 'Taipei',
   },
 };
 
@@ -18,15 +18,15 @@ const jobInfo = {
  */
 
 const taipei = {
-  name: "新北市",
+  name: '新北市',
   area: [
     {
-      name: "萬里區",
-      zip: "207",
+      name: '萬里區',
+      zip: '207',
     },
     {
-      name: "金山區",
-      zip: "208",
+      name: '金山區',
+      zip: '208',
     },
   ],
 };
@@ -43,17 +43,17 @@ interface IHeight {
 }
 
 interface IBoxFontSize {
-  "font-size": string;
-  "font-weight": string;
+  'font-size': string;
+  'font-weight': string;
 }
 
 const box = {
-  width: "100px",
-  height: "100px",
-  color: "red",
-  border: "4px solid #000",
-  padding: "10px",
-  margin: "10px",
-  "font-size": "16px",
-  "font-weight": "bold",
+  width: '100px',
+  height: '100px',
+  color: 'red',
+  border: '4px solid #000',
+  padding: '10px',
+  margin: '10px',
+  'font-size': '16px',
+  'font-weight': 'bold',
 };

@@ -9,11 +9,11 @@ const countNum2 = priceNum2;
 console.log(countNum2.toFixed());
 
 // unknown 斷言基礎型別
-const strValue: unknown = "this is a string";
+const strValue: unknown = 'this is a string';
 const strLength = strValue.length;
 console.log(strLength);
 
 // unknown 斷言物件型別
-const apiResponse: unknown = { name: "Mike", age: 12 };
+const apiResponse: unknown = { name: 'Mike', age: 12 };
 const userInfo = apiResponse;
 console.log(userInfo.name); // -> "Mike"

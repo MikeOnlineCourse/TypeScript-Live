@@ -1,24 +1,22 @@
-const user = { id: 1, name: "mike", age: 12 };
-
+const user = { id: 1, name: 'mike', age: 12 };
 
 /**
-* 結合類型
-*/
+ * 結合類型
+ */
 
- const job = {
+const job = {
   baseInfo: {
     id: 1,
-    name: "mike",
+    name: 'mike',
     age: 12,
   },
-  job: "Frontend Engineer",
+  job: 'Frontend Engineer',
 };
- 
 
 /**
-* 擴充類型
-*/
- type THumanInfo = {
+ * 擴充類型
+ */
+type THumanInfo = {
   sex: string;
   age: number;
 };
@@ -27,12 +25,10 @@ type TPeopleInfo = {
   name: string;
   address?: string;
 };
- 
+
 const person = {
-  name: "mike",
+  name: 'mike',
   age: 12,
-  sex: "boy",
-  address: "Taiwan",
+  sex: 'boy',
+  address: 'Taiwan',
 };
- 
- 

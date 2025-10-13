@@ -1,6 +1,6 @@
 /**
-* Interface
-*/
+ * Interface
+ */
 interface IWidth {
   width: string;
 }
@@ -8,8 +8,8 @@ interface IHeight {
   height: string;
 }
 interface IBoxFontSize {
-  "font-size": string;
-  "font-weight": string;
+  'font-size': string;
+  'font-weight': string;
 }
 
 interface IBoxStyle extends IWidth, IHeight, IBoxFontSize {
@@ -18,27 +18,25 @@ interface IBoxStyle extends IWidth, IHeight, IBoxFontSize {
   padding: string;
   margin: string;
 }
- 
 
 /**
-* Type
-*/
+ * Type
+ */
 type TWidth = {
   width: string;
-}
+};
 type THeight = {
   height: string;
-}
+};
 type TBoxFontSize = {
-  "font-size": string;
-  "font-weight": string;
-}
+  'font-size': string;
+  'font-weight': string;
+};
 type TOtherStyle = {
   color: string;
   border: string;
   padding: string;
   margin: string;
-}
+};
 
-type TBoxStyle = TWidth & THeight & TBoxFontSize & TOtherStyle
- 
+type TBoxStyle = TWidth & THeight & TBoxFontSize & TOtherStyle;

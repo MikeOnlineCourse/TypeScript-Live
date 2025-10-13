@@ -8,6 +8,6 @@ type TUserRequiredInfo = {
 
 // 把所有的屬性變成必選的
 const user1: TUserRequiredInfo = {
-  name: "Mike",
+  name: 'Mike',
   age: 12,
 };
