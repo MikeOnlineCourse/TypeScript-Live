@@ -45,15 +45,3 @@ type TProductForm = {
 // 3. 圖片上傳 "images"
 
 // 4. 發布設定 "isPublished"
-
-/**
-  * (補充)
-      File 是瀏覽器內建的 Web API 類型，代表一個檔案物件，包含：
-      name: 檔案名稱（如 "photo.jpg"）
-      size: 檔案大小（如 1024567 bytes）
-      type: 檔案類型（如 "image/jpeg"）
-      lastModified: 最後修改時間
-
-
-  * File[] : 是 File 物件的陣列，代表有多個檔案
-*/
