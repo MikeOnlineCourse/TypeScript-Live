@@ -1,1 +1,1 @@
-import "./ts/25-OtherLib.ts";
+import './ts/01-BasicTypes';
