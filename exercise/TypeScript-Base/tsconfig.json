@@ -19,8 +19,10 @@
     "noUncheckedSideEffectImports": true,
     "noUnusedParameters": true,
 
-    // 有些 ts 語法是需要轉換成 js 的，但預設是禁止，需要改成 false
-    // "erasableSyntaxOnly": true,
+    // 有些 ts 語法是需要轉換成 js 的，某些版本會禁止使用這些語法，所以我們需要改成 false
+    "erasableSyntaxOnly": true,
+
+
     // 識別 js 檔案
     // "allowJs": true,
     // 不進行 js 檔案的型別檢查
