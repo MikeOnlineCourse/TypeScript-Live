@@ -4,7 +4,7 @@ import type {
   ApiTagsListResponse,
   ApiTagsProductParams,
   ApiTagsProductResponse,
-} from "./types.js";
+} from "../type/types.js";
 
 const request = axios.create({
   baseURL: "https://vue-lessons-api.vercel.app/",
@@ -15,7 +15,9 @@ export const apiGetTagsList = (): Promise<AxiosResponse<ApiTagsListResponse>> =>
   request.get<ApiTagsListResponse>("/nav/tags");
 
 // https://vue-lessons-api.vercel.app/nav/tags/product?tage=frontEnd
-export const apiGetTagsProduct = (params: ApiTagsProductParams): Promise<AxiosResponse<ApiTagsProductResponse>> =>
+export const apiGetTagsProduct = (
+  params: ApiTagsProductParams
+): Promise<AxiosResponse<ApiTagsProductResponse>> =>
   request.get<ApiTagsProductResponse>("/nav/tags/product", {
     params,
   });

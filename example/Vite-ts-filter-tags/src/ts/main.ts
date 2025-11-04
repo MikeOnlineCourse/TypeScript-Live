@@ -8,7 +8,7 @@ import {
 } from "./utils/url.js";
 import { apiGetTagsList, apiGetTagsProduct } from "../api/index.js";
 import loading from "./utils/load.js";
-import type { Tag, Product, ApiTagsProductParams } from "../api/types.js";
+import type { Tag, Product, ApiTagsProductParams } from "../type/types.js";
 
 const tagParent = document.querySelector(".parent") as HTMLDivElement;
 const tagChild = document.querySelector(".child") as HTMLDivElement;
